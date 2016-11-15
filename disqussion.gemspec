@@ -2,11 +2,11 @@
 require File.expand_path('../lib/disqussion/version', __FILE__)
 
 Gem::Specification.new do |spec|
-  spec.add_dependency('hashie', '~> 2.0')
-  spec.add_dependency('faraday', '~> 0.8')
-  spec.add_dependency('faraday_middleware', '>= 0.9')
-  spec.add_dependency('multi_json', '~> 1.5')
-  spec.add_dependency('rash', '~> 0.3')
+  spec.add_dependency('hashie')
+  spec.add_dependency('faraday')
+  spec.add_dependency('faraday_middleware')
+  spec.add_dependency('multi_json')
+  spec.add_dependency('rash')
   spec.authors        = ["Jérémy Van de Wyngaert"]
   spec.description    = %q{Disqus API v3 wrapper}
   spec.email          = ['jeremyvdw@gmail.com']

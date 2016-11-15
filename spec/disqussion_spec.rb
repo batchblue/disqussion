@@ -26,7 +26,7 @@ describe Disqussion do
 
   describe '.respond_to?' do
     it 'takes an optional include private argument' do
-      Disqussion.respond_to?(:client, true).should be_true
+      Disqussion.respond_to?(:client, true).should be true
     end
   end
 

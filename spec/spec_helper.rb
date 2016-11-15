@@ -8,6 +8,7 @@ require 'rspec'
 require 'webmock/rspec'
 
 RSpec.configure do |config|
+  config.expect_with(:rspec) { |c| c.syntax = :should }
   config.include WebMock::API
   
   config.before(:each) do

@@ -8,7 +8,7 @@ describe Disqussion::Client do
   
     it "connect using the endpoint configuration" do
       connection = @client.send(:connection).build_url(nil).to_s
-      connection.should == @client.api_endpoint.gsub(/\/$/, '')
+      connection.should == @client.api_endpoint
     end
   end
 end
